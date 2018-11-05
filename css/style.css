@@ -40,7 +40,10 @@ button {
     width: 4em;
     height: 6em;
     margin-right: 1em;
-    border: 1px solid black;
+    background-image: url("../images/frankie.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .date {
     color: red;
