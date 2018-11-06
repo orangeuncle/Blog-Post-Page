@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+//Subscribe box
 .subs-box {
     position: relative;
     background-color: #c6c6c6;
@@ -16,6 +17,9 @@
     top: 0px;
     font-size: 2em;
 }
+
+
+//Butos and input tabs on the page
 input, button {
     height: 3em;
     outline: none;
@@ -31,11 +35,17 @@ button {
     background-color: #666666;
     width: 100px;
 }
+
+
+//The div holding post title and picture
 .title-wrapper {
     display: grid;
     grid-template-columns: auto 1fr;
     margin-top: 6em;
 }
+
+
+//images of the post
 .loc-img {
     width: 4em;
     height: 6em;
